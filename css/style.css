@@ -1,0 +1,119 @@
+/* Navigation styles */
+.logo {
+    background: white url("/03_Jakes_Eatery/unsolved/images/jakes-logo.png") no-repeat center; height: 230px;
+   
+}
+.nav {
+    display: flex;
+    background-color: black;
+    padding: 20px;
+}
+.left, .right, .center {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left, .right {
+    width: 25%;
+}
+.center {
+    width: 50%;
+}
+.center a {
+    color: white;
+    padding: 10px;;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+.right button {
+    background-color: yellow;
+    color:black;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    padding: 15px;
+    width: 50%;
+}
+.left button {
+    background-color: skyblue;
+    color:black;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    padding: 15px;
+    width: 50%;
+}
+/* Column styles */
+.column {
+    display: flex;
+    height: 1200px;
+    width: 800px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.meal1, .meal2, .meal3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+
+}
+.meal1 {
+    margin-top: 20px;
+    background-image: url("/03_Jakes_Eatery/unsolved/images/steak.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.meal2 {
+    background-image: url("/03_Jakes_Eatery/unsolved/images/soup.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.meal3 {
+        background-image: url("/03_Jakes_Eatery/unsolved/images/cheesecake.png");
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.text {
+    background: rgb(0, 0, 0, 0.7);
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+}
+.text p {
+    color: white, rgb(255, 255, 255, 0.7);
+    font-family: 'Nunito', sans-serif;
+}
+.text h1 {
+    font-family: 'Nunito', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Footer Styles */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 100px;
+  }
+.footer a {
+    padding: 20px 40px;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  
+  .ig {
+    color: red;
+  }
+  
+  .fb {
+    color:skyblue;
+  }
+  
+  .tw {
+    color: yellow;
+  }
